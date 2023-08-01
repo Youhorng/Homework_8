@@ -8,7 +8,8 @@ def chunking_by(numbers, chunck):
     for i in range(num_of_chunck): 
 
         start_index = i * chunck 
-
+ 
+ 
         end_index = start_index + chunck
 
         current_list = numbers[start_index:end_index]
